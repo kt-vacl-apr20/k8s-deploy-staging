@@ -21,13 +21,6 @@
         "tags" : "app:front-end,environment:staging",
         "upperSevere" : 800.0,
         "upperWarning" : 500.0
-    },
-    {
-        "timeseriesId" : "com.dynatrace.builtin:servicemethod.responsetime",
-        "aggregation" : "avg",
-        "entityIds" : "SERVICE_METHOD-C94CBA0A0FB2381C",
-        "upperSevere" : 800.0,
-        "upperWarning" : 500.0
     }
   ]
 }
