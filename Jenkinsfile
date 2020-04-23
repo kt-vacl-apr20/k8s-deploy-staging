@@ -138,14 +138,14 @@ pipeline {
           }
         }
         //sleeping to allow data to arrive in Dynatrace
-        /*
+        
         sleep 60
         perfSigDynatraceReports(
           envId: 'Dynatrace Tenant', 
           nonFunctionalFailure: 2, 
           specFile: "monspec/e2e_perfsig.json"
         )
-        */
+        
       }
     }
  
